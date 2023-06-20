@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio  Alvaro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="profile-bio">
+                    <img src="build/imagens/avatar.jpg">
+                    <div class="profile-bio-name"><h1>Alvaro De Carvalho</h1></div>
+                    <div class="profile-bio-subtitle"><h2>Desenvolvedor Front-end</h2></div>
+                    <div class="profile-bio-description"><p></p></div>
+                </div>
+            </header>
+            <nav>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.instagram.com/alvaro_carvalhoo__/" target="_blank">
+                        <img src="build/imagens/instagram.svg">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/alvaro-de-carvalho-a4952a238/"target="_blank">
+                        <img src="build/imagens/linkedin.svg"> 
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href=""target="_blank">
+                        <img src="build/imagens/facebook.svg">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                        <img src="build/imagens/mail.svg" id="email">
+                        </a>
+                    </li>
+            </nav>
+            <nav>
+                <ul class="project-list">
+                    <li class="project-list-item">
+                        <a href="">
+                            Projetos feitos por mim
+                        </a>
+                    </li>
+                    <li class="project-list-item">
+                        <a href="">
+                            Certificado EBAC
+                        </a>
+                    </li>
+                    <li class="project-list-item">
+                        <a href="build/curriculo/AlvaroCurriculo.docx" download="AlvaroCurriculo.docx">
+                        curriculo
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>     
+        </div>
+        <div class="container">
+            <div class="accordion">
+                <h2>Perguntas sobre mim!</h2>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta1">
+                            Qual curso eu faço?
+                        </button>
+                    </div>
+                    <div id="resposta1" class="accordion-collapse collapse ">
+                        <div class="accordion-body">
+                            Faço ciências da computação- UNIPE
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta2">
+                            De onde eu sou?
+                        </button>
+                    </div>
+                    <div id="resposta2" class="accordion-collapse collapse ">
+                        <div class="accordion-body">
+                            Moro em João Pessoa-PB, e estou aperto a empregos remotos 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta3">
+                           Em quais empresas eu trabalhei?
+                        </button>
+                    </div>
+                    <div id="resposta3" class="accordion-collapse collapse ">
+                        <div class="accordion-body">
+                            tenho experência em gestão financeira no jornal notícias forenses, onde eu servia de auxiliar ao meu pau 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#resposta4">
+                            minha aréa de expecialização ?
+                        </button>
+                        <div id="resposta4" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                sou expecialista em front-end, entretando atualmente frequentos cursos  para que eu possa me tornar um Desenvolvedor Full-stack
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            const email = document.getElementById("email")
+            email.addEventListener('click',function(a){
+                alert("alvarodecarvalho20@gmail.com")
+            })
+        </script>
+</body>
+</html>
