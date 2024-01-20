@@ -49,22 +49,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
     ];
 
-    var projectList = document.getElementById("project-list");
+    
+    var listElement = document.getElementById('project-list')
 
-    if (projectList) {
-        for (var i = 0; i < projetos.length; i++) {
-            var listItem = document.createElement("li");
-            listItem.className = "project-list-item";
+    if(listElement){
+        for(let i = 0 ; i <= projetos.length ; i++ ){
+            var itemElement =  document.createElement('li')
+            itemElement.className = 'project-list-item'
 
-            var linkElement = document.createElement("a");
-            linkElement.href = projetos[i].link;
-            linkElement.target = "_blank";
-            linkElement.textContent = projetos[i].descricao;
-
-            projectList.appendChild(listItem);
-            listItem.appendChild(linkElement);
+            var linkElemnt = document.createElement('a')
+            linkElemnt.href = projetos[i].link
+            linkElemnt.target = '_blank'
+            linkElemnt.textContent = projetos[i].descricao
+            listElement.appendChild(itemElement)
+            itemElement.appendChild(linkElemnt)
         }
-    } else {
+    }
+    
+     else {
         console.error("Elemento project-list não encontrado");
     }
 });
