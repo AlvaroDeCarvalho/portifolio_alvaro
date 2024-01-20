@@ -28,14 +28,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
         { 
             link: "https://alvaronewportfolio.vercel.app/",
-            descricao: "Um portfolio reserva feito com react e restauração de Api comhttps://projeto-modulo-22-leanding-page.vercel.app/" 
+            descricao: "portfolio reserva feito com react e restauração de Api" 
         },
+        { 
 
+            link: "https://projeto-modulo-22-leanding-page.vercel.app/",
+            descricao: "leanding Page evento ebac" 
+        },
+        { 
+
+            link: "https://github-perfil-adsn.vercel.app/",
+            descricao: "Site onde é possivel fazer pesquisa de perfis do github. tudo através de API " 
+        },
         { 
 
             link: "https://github.com/AlvaroDeCarvalho",
             descricao: "Mais projetos disponíveis aqui" 
-        }
+        },
+
+
     ];
 
     var projectList = document.getElementById("project-list");
