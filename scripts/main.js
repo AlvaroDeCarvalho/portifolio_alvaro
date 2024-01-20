@@ -5,12 +5,37 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     var projetos = [
-        { link: "https://restaurante-com-bootstrap.vercel.app/", descricao: "Restaurante do Álvaro" },
-        { link: "https://loja-de-carros-zeta.vercel.app/", descricao: "Loja de Carros" },
-        { link: "https://calculadora-notas-self.vercel.app/", descricao: "Calculadora de médias com JS nativo" },
-        { link: "https://projeto-modulo-21-disney-project-8hep.vercel.app/", descricao: "Clone da Disney+ com JS nativo, SASS e Gulp" },
-        { link: "https://projeto-modulo-22-leanding-page.vercel.app/", descricao: "Landing Page feita com auxílio do Parcel" },
-        { link: "https://github.com/AlvaroDeCarvalho", descricao: "Mais projetos disponíveis aqui" }
+        {
+            link: "https://restaurante-com-bootstrap.vercel.app/", 
+            descricao: "Restaurante do Álvaro" 
+
+        },
+
+        {
+            link: "https://loja-de-carros-zeta.vercel.app/",
+            descricao: "Loja de Carros" 
+        },
+
+        { 
+            link: "https://todo-vuejs-steel.vercel.app/",
+            descricao: "Lista de tarefas simples com VueJs" 
+        },
+
+        {
+            link: "https://projeto-modulo-21-disney-project-8hep.vercel.app/",
+            descricao: "Clone da Disney+ com JS nativo, SASS e Gulp"
+         },
+
+        { 
+            link: "https://alvaronewportfolio.vercel.app/",
+            descricao: "Um portfolio reserva feito com react e restauração de Api comhttps://projeto-modulo-22-leanding-page.vercel.app/" 
+        },
+
+        { 
+
+            link: "https://github.com/AlvaroDeCarvalho",
+            descricao: "Mais projetos disponíveis aqui" 
+        }
     ];
 
     var projectList = document.getElementById("project-list");
