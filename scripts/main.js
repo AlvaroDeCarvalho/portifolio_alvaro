@@ -42,6 +42,11 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         { 
 
+            link: "https://listas-tarefas.vercel.app/",
+            descricao: "Lista de tarefas desenvolvida com React Toolkit e typescript  " 
+        },
+        { 
+
             link: "https://github.com/AlvaroDeCarvalho",
             descricao: "Mais projetos disponíveis aqui" 
         },
